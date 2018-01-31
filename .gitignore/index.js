@@ -1,14 +1,17 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const Discord = require ("discord.js");
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+var bot = new Discord.Client ();
+
+bot.on("ready", () => {
+    bot.user.setGame("Manger");
+    console.log("bot connected");
 });
 
-client.on('message', msg => {
-  if (msg.content === 'modo') {
-    msg.reply('cest mon chef');
-  }
-});
+bot.login(process.env.TOKEN);
 
-client.login(process.env.TOKEN);
+bot.on("message", message => {
+    if (message.content === "modo")
+        message.reply(" c'est mon chef");})
+bot.on("message", message => {
+    if (message.content === "salut")
+        message.reply(" bonjour");})
