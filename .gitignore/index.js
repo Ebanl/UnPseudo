@@ -15,3 +15,9 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "salut")
         message.reply(" bonjour");})
+bot.on("message", message => {
+    if (message.content === "Modo") 
+        message.reply(" c'est mon chef");})
+bot.on("message", message => {
+    if (message.content === "Salut") 
+        message.reply(" c'est mon chef");}) 
