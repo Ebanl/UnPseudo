@@ -21,3 +21,6 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Salut") 
         message.reply(" c'est mon chef");}) 
+bot.on("message", message => {
+    if (message.content === "Hihax") 
+        message.reply(" c'est mon dev");}) 
