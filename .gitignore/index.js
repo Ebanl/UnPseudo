@@ -20,7 +20,10 @@ bot.on("message", message => {
         message.reply(" c'est mon chef");})
 bot.on("message", message => {
     if (message.content === "Salut") 
-        message.reply(" c'est mon chef");}) 
+        message.reply(" bonjour");}) 
 bot.on("message", message => {
     if (message.content === "Hihax") 
         message.reply(" c'est mon dev");}) 
+bot.on("message", message => {
+    if (message.content === "Jerey")
+        message.reply(" c'est le fondateur du serveur !!!");}) 
