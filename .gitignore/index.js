@@ -28,4 +28,6 @@ bot.on("message", message => {
     if (message.content === "Hexxel")
         message.reply(" c'est le fondateur du serveur !!!")
     if (message.content === "qui est la") 
-        message.reply("Moi je suis la comme ça t'es jamais Rémi c'est cool non ?? ") ;}) 
+        message.reply("Moi je suis la comme ça t'es jamais Rémi c'est cool non ?? ") 
+    if (message.content === "Le français")
+        message.reply("c'est de la merde") ;}) 
