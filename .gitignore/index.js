@@ -25,7 +25,7 @@ bot.on("message", message => {
     if (message.content === "Hihax") 
         message.reply(" c'est mon dev");}) 
 bot.on("message", message => {
-    if (message.content === "Jerey")
+    if (message.content === "Hexxel")
         message.reply(" c'est le fondateur du serveur !!!")
     if (message.content === "qui est la") 
         message.reply("Moi je suis la comme ça t'es jamais Rémi c'est cool non ?? ") ;}) 
