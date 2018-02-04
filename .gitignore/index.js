@@ -31,3 +31,12 @@ bot.on("message", message => {
         message.reply("Moi je suis la comme ça t'es jamais Rémi c'est cool non ?? ") 
     if (message.content === "Le français")
         message.reply("c'est de la merde") ;}) 
+bot.on("message", message => {
+    if (message.content === "le francais") 
+        message.reply(" c'est de la merde");})
+bot.on("message", message => {
+    if (message.content === "HexXel") 
+        message.reply(" c'est le fondateur du serveur !!! ");})
+bot.on("message", message => {
+    if (message.content === "hihax") 
+        message.reply(" c'est mon dev");}) 
