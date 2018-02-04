@@ -9,6 +9,8 @@ bot.on("ready", () => {
 
 bot.login(process.env.TOKEN);
 
+bot.on("serverNewMember", function (server, user) {
+        bot.addMemberToRole(user, server.roles.get("name", "Membre"), function (err) { if (err) console.log(err) }
 bot.on("message", message => {
     if (message.content === "modo")
         message.reply(" c'est mon chef");})
@@ -40,3 +42,4 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "hihax") 
         message.reply(" c'est mon dev");}) 
+
