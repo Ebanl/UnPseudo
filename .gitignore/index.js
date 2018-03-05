@@ -40,4 +40,9 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "hihax") 
         message.reply(" c'est mon dev");}) 
+bot.on("message", message => {
+    if(message.content === "Bonjour"){
+    const broadcast = client.createVoiceBroadcast(); 
+    broadcast.playFile('UnPseudo/.gitignore/33626998.mp3');
+    const dispatcher = connection.playBroadcast(broadcast); }
 
