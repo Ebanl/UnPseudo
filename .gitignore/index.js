@@ -10,5 +10,5 @@ bot.on("ready", () => {
 bot.login(process.env.TOKEN);
 
 bot.on("message", message => {
-    if (message.content === "@Michel,  modo")
-        message.reply(" modo");})
+    if (message.content === "modo")
+        message.channel.sendMessage("modo");})
